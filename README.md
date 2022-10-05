@@ -8,5 +8,5 @@ study log of algorithm
 ## Contents
 
 * [Level 1](https://github.com/jjy0328/TIL_-Algorithm/tree/main/Level01)
-* [Level 2](https://github.com/jjy0328/TIL_-Algorithm/tree/main/level2)
+* [Level 2](https://github.com/jjy0328/TIL_-Algorithm/tree/main/level02)
 
