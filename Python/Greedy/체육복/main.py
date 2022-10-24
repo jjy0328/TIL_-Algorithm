@@ -10,7 +10,7 @@ def solution(n, lost, reserve):
 
 
 
-# 맞춘 코드
+# 맞춘 코드s
 def solution(n, lost, reserve):
     
     # 각 리스트 중복 제거
