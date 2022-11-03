@@ -6,8 +6,6 @@
 
 # 스택(Stack)
 
-![stack](https://drive.google.com/file/d/1Q3hmB86efTyiMJLlwTxQbdkBZGusoTgm/view?usp=share_link)
-
 * 가장 먼저 들어온 것이 마지막에 나감 (FILO)
 * ex) 택배 상하차 : 마지막에 들어온 데이터가 가장 먼저 처리
 * 입구와 출구가 하나밖에 없는 상태로 표현 가능
@@ -16,7 +14,6 @@
 
 # 큐(Que)
 
-![Que](https://drive.google.com/file/d/13fENHARr-TqhM57-dfJMhEyDa-UGiLdl/view?usp=share_link)
 * 가장 먼저 들어온 것이 가장 먼저 나감 (FIFO)
 * ex) 은행창구 : 번호를 먼저 뽑으면 먼저 서비스를 받음
 * 새치기 불가
