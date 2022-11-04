@@ -1,0 +1,7 @@
+-- 내 코드
+-- 문제 잘 읽기! 컬럼의 순서가 바뀌어있었음!!
+
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, IFNULL(TLNO, "NONE") AS TLNO
+    FROM PATIENT
+    WHERE AGE <= 12 AND GEND_CD = 'W'
+    ORDER BY AGE DESC, PT_NAME ASC;
