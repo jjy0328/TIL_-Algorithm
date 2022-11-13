@@ -17,3 +17,11 @@
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/99624568/200769322-8395929d-1811-4cb1-b9c5-fe9fc51436be.png">
 
 ## 5. 입양 시각 구하기
+<img width="500" alt="05_1" src="https://user-images.githubusercontent.com/99624568/201511918-493d7a77-3197-4148-9a33-237d485f96f8.png">
+<img width="500" alt="05_2" src="https://user-images.githubusercontent.com/99624568/201511926-4cad9281-a858-42b8-98a6-d7526371d12b.png">
+
+## 6. 식품분류별 가장 비싼 식품의 정보 조회하기
+<img width="500" alt="06_1" src="https://user-images.githubusercontent.com/99624568/201511952-0f49ee92-314c-422a-83bc-2896f208515f.png">
+<img width="500" alt="06_2" src="https://user-images.githubusercontent.com/99624568/201511956-df60f582-cf1a-486b-8422-14ade98c75db.png">
+
+
