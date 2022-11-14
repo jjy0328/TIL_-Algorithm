@@ -1,0 +1,14 @@
+SELECT AI.NAME, AI.DATETIME
+     FROM ANIMAL_INS AS AI
+     LEFT JOIN ANIMAL_OUTS AS AO
+        ON AI.ANIMAL_ID = AO.ANIMAL_ID
+     WHERE AO.DATETIME IS NULL
+     ORDER BY DATEDIFF(AO.DATETIME, AI.DATETIME) DESC, AI.DATETIME ASC
+     LIMIT 3;
+     
+-- 입양을 못 간 동물까지 다 확인하기 : LEFT JOIN
+-- 입양 날짜가 없는 컬럼만 남기기 : WHERE AO.DATETIME IS NULL
+-- 보호소 출수 날짜 - 보호소 입소 날짜 : DATEDIFF(AO.DATETIME, AI.DATETIME)
+-- 가장 오래 보호소에 있었던 동물 내림차순 정렬 : DATEDIFF(AO.DATETIME, AI.DATETIME) DESC
+--  보호 시작일 순으로 조회 : AI.DATETIME ASC
+-- top3 뽑아내기 : LIMIT 3
