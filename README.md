@@ -20,4 +20,5 @@ study log of algorithm
 * [IS NULL](https://github.com/jjy0328/TIL_-Algorithm/tree/main/MySQL/IS%20NULL)
 * [SELECT](https://github.com/jjy0328/TIL_-Algorithm/tree/main/MySQL/SELECT)
 * [SUM, MAX, MIN](https://github.com/jjy0328/TIL_-Algorithm/tree/main/MySQL/SUM%2CMAX%2CMIN)
+* [JOIN](https://github.com/jjy0328/TIL_-Algorithm/tree/main/MySQL/JOIN)
 
