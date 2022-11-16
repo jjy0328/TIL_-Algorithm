@@ -1,0 +1,10 @@
+-- 코드를 입력하세요
+SELECT AO.ANIMAL_ID, AO.NAME
+    FROM ANIMAL_INS AS AI
+    RIGHT JOIN ANIMAL_OUTS AS AO
+        ON AI.ANIMAL_ID = AO.ANIMAL_ID
+    WHERE AI.DATETIME IS NULL;
+
+
+-- RIGHT JOIN으로 ANIMAL_IN의 비어있는 데이터 조회하기
+-- SELECT AI.ANIMAL_ID, AI.NAME으로 헸을 경우 null값이 나오므로 주의 필요!
