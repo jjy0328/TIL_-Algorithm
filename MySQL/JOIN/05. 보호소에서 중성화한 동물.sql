@@ -1,0 +1,12 @@
+-- 코드를 입력하세요
+SELECT AI.ANIMAL_ID, AI.ANIMAL_TYPE, AI.NAME
+    FROM ANIMAL_INS AS AI
+    JOIN ANIMAL_OUTS AS AO
+        ON AI.ANIMAL_ID = AO.ANIMAL_ID
+    WHERE AI.SEX_UPON_INTAKE != AO.SEX_UPON_OUTCOME
+    ORDER BY AI.ANIMAL_ID;
+
+
+-- 보호소 입소와 출소의 중성화 여부 상태가 다른 것이기 때문에,
+-- AND 구문이나 OR 구문 사용할 필요 없이, 
+-- WHERE AI.SEX_UPON_INTAKE != AO.SEX_UPON_OUTCOME 사용하면 됨
