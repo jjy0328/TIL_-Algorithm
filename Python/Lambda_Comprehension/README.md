@@ -1,0 +1,1 @@
+Lambda와 list comprehension 연습하기 위한 곳입니다.
