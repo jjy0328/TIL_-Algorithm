@@ -27,4 +27,4 @@ study log of algorithm
 ### Hacker Rank
 
 #### MySQL
-* [Basic] (https://github.com/jjy0328/TIL_-Algorithm/tree/main/HackerRank/MySQL/Basic)
+* [Basic](https://github.com/jjy0328/TIL_-Algorithm/tree/main/HackerRank/MySQL/Basic)
