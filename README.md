@@ -32,3 +32,7 @@ study log of algorithm
 
 #### MySQL
 * [Basic](https://github.com/jjy0328/TIL_-Algorithm/tree/main/HackerRank/MySQL/Basic)
+
+
+### This is Coding Test
+* [Greedy](https://github.com/jjy0328/TIL_-Algorithm/tree/main/ThisIsCodingTest)
