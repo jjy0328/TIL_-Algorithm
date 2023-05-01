@@ -1,4 +1,3 @@
-# 재귀함수를 사용했으나 런타임 에러가 남
 def solution(n):
     if n == 1:
         return 1
