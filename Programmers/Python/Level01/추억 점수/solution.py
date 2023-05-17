@@ -13,3 +13,8 @@ def solution(name, yearning, photo):
                 cnt += missing[kid]
         answer.append(cnt)
     return answer
+
+##### 리팩토링 #####
+def solution(name, yearning, photo):
+    missing = dict(zip(name, yearning))
+    answer = [sum(missing[kid] for kid in kids if kid in missing) for kids in photo]
